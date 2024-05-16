@@ -17,6 +17,7 @@ function clickCard() {
             <img src="${image1}" class="cardImage" />
             <img src="${image2}" class="cardImage" />
             </div>
+            <a href="./images/Biznes Binası.rar" download class="downloadPortfolioBtn">Yüklə</a>
             <div class="rightSideCard">
                 <h1 class=".cardTitle">${title} </h1>
                 <p class=".cardDescription">${description}</p>
@@ -35,6 +36,7 @@ function clickCard() {
             <img src="${image1}" class="cardImage" />
             <img src="${image2}" class="cardImage" />
             </div>
+            <a href="./images/Şəhid Bulağı.rar" download class="downloadPortfolioBtn">Yüklə</a>
             <div class="rightSideCard">
                 <h1 class=".cardTitle">${title} </h1>
                 <p class=".cardDescription">${description}</p>
@@ -55,6 +57,7 @@ function clickCard() {
                 <img src="${image2}" class="cardImage" />          
                 <img src="${image3}" class="cardImage" />                      
                 </div>
+                <a href="./images/Məktəb Layihəsi.rar" download class="downloadPortfolioBtn">Yüklə</a>
                 <div class="rightSideCard">
                     <h1 class=".cardTitle">${title} </h1>
                     <h3 class=".cardPrograms">${programs}</h3>
@@ -71,6 +74,7 @@ function clickCard() {
             <img src="${image1}" class="cardImage" />
             <img src="${image2}" class="cardImage" />
             </div>
+            <a href="./images/Yaşayış Kompleksi.rar" download class="downloadPortfolioBtn">Yüklə</a>
             <div class="rightSideCard">
                 <h1 class=".cardTitle">${title} </h1>
                 <h3 class=".cardPrograms">${programs}</h3>
@@ -86,6 +90,7 @@ function clickCard() {
                 `<div class="leftSideCard">
                 <img src="${image}" class="cardImage" />
                 </div>
+                <a href="${image}" download class="downloadPortfolioBtn">Yüklə</a>
                 <div class="rightSideCard">
                     <h1 class=".cardTitle">${title} </h1>
                     <h3 class=".cardPrograms">${programs}</h3>
@@ -102,6 +107,7 @@ function clickCard() {
                 `<div class="leftSideCard">
                 <img src="${image}" class="cardImage" />
                 </div>
+                <a href="${image}" download class="downloadPortfolioBtn">Yüklə</a>
                 <div class="rightSideCard">
                     <h1 class=".cardTitle">${title} </h1>
                     <p class=".cardDescription">${description}</p>

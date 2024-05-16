@@ -31,10 +31,20 @@
     font-weight: bold;
 }
 
+.headingDiv {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
 .image_heading {
-    width: 400px;
+    width: 100%;
     border-radius: 50%;
     border: 3px solid rgba(255, 255, 255, 0.3);
+}
+
+.rightSide {
+    width: 30%;
 }
 
 .leftSide {
@@ -95,6 +105,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    flex-direction: column;
 }
 
 .cvImg {
@@ -102,11 +113,19 @@
     border-radius: 10px;
 }
 
+.downloadCvBtn {
+    font-size: 17px;
+    background-color: gray;
+    padding: 15px;
+    color: #fff;
+    border-radius: 5px;
+}
+
 .huseynImgCv {
-    width: 400px;
+    width: 25%;
     position: absolute;
-    left: 170px;
-    top: 170px;
+    left: 11%;
+    top: 20%;
 }
 
 .portfolioDiv {
@@ -169,7 +188,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 .leftSideCard {
@@ -189,7 +207,7 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    overflow-y:scroll ;
+    overflow-y: scroll;
 }
 
 .cardImage {
@@ -215,18 +233,98 @@ ert {
     background-color: red;
 }
 
-.openedCard .rightSideCard h1{
+.openedCard .rightSideCard h1 {
     font-size: 24px;
 }
 
-.openedCard .rightSideCard p{
+.openedCard .rightSideCard p {
     font-weight: 500;
 }
 
-.openedCard .rightSideCard h3{
+.openedCard .rightSideCard h3 {
     font-size: 15px;
     font-weight: 600;
     align-self: flex-start;
     width: 150px;
     height: 150px;
+}
+
+.downloadPortfolioBtn {
+    color: #000;
+    transform: rotate(90deg);
+}
+
+@media (max-width:680px) {
+    #container {
+        width: 100%;
+    }
+
+    .leftSide {
+        width: 100%;
+        padding: 50px 0px 0px 50px;
+    }
+
+    .headingDiv {
+        flex-direction: column;
+    }
+
+    .heading {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .rightSide {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image_heading {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cvDiv {
+        margin-top: 50px;
+        gap: 15px;
+    }
+
+    .headingOfPortfolio {
+        color: #fff;
+    }
+
+    .cards {
+        height: 2500px;
+    }
+
+    .openedCard {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .leftSideCard,
+    .rightSideCard {
+        width: 95%;
+    }
+
+    .leftSideCard {
+        align-items: center;
+    }
+
+    .closeCardBtn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        right: 5px;
+        top: 5px;
+    }
+
+    .downloadPortfolioBtn {
+        transform: rotate(0deg);
+    }
+
 }
